@@ -68,10 +68,12 @@ printOut("--- Part 5 -----------------------------------------------------------
 const NOK = 76 / 8.6;
 const USD = 8.6 / 76;
 const usdToNok = Math.round (NOK * 54);
+const NokToUsd = 54
 
 printOut(NOK + " kroner");
 printOut(USD + " dollar");
 printOut(usdToNok + " kroner");
+printOut(NokToUsd + " dollar");
 
 printOut("--- Part 6 ----------------------------------------------------------------------------------------------");
 /* Put your code below here!*/
