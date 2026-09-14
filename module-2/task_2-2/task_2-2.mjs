@@ -128,7 +128,7 @@ const text4 = Number.parseFloat ("57.23");
 printOut (text4);
 
 const text5 = Number.parseInt ("25 kroner");
-printOut (text5 + " kroner")
+printOut (text5 + " Kroner")
 
 printOut("--- Part 9 ----------------------------------------------------------------------------------------------");
 /* Put your code below here!*/
