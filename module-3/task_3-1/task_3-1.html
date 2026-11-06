@@ -11,13 +11,17 @@
     </div>
     <ol>
       <li>Discuss the behavior of part 1, What happens when the wake-up time is not 7 and what happens when it is exactly 7?</li>
-      <p>Når klokka er 7 printer den "Take the bus". Hvis klokka ikke er 7, skjer det ingenting fordi vi ikke har bedt den gjøre noe mer etter if.</p>
+      <p>Når klokka ikke er 7, så printer den ingenting. Når er klokka 7 stopper programpekeren der og printer ut det som stemmer med if.</p>
+
       <li>Same as question #1. How ever the answer should now be different. Discuss the behavior of part 2, What happens when the wake-up time is not 7 and what happens when it is exactly 7?</li>
-      <p>[På oppgave 2 legger vi til else. Hvis klokka er 7, printer programmet det som står etter if. Hvis klokka ikke er 7, går den videre til else og printer det som står der.]</p>
+      <p>Her printer den at man skal ta buss hvis klokka er 7. Hvis ikke går programpekeren videre til det som står i else.</p>
+
       <li>Discuss the behavior of part 3, what happens when wake time is less than 7 or greater than 8?</li>
-      <p>[Nå har vi lagt til else if og, mellom if og else. Den kan an bruke for å sjekke enda flere alternativer. Så hvis if er 7 og else er 8, kan vi bruke else if for å sjekke andre alternativer.]</p>
+      <p>Når klokka er mindre enn 7 eller større enn 8 printer den at man skal ta bil til skolen. Det er fordi den sjekker først if. Når det ikke stemmer, går den videre til else if. Når det heller ikke stemmer, printer den else. </p>
+
       <li>Discuss the behavior for part 4, what happens if the number is exactly 0, is zero positive or negative?</li>
-    </ol>Nummeret er konstant "5". Systemet sjekker om "if(>0)" & "else if(<0)" påstandene er sanne og vil derfor enten printe ut "the number is negative/positive". Om nummeret er eksakt 0, vil det printe ut "the number is zero", siden vi la til en "else" funksjon i tillegg, med den påstanden.
+          Den printer utifra om if, else if, eller else stemmer. For eksempel hvis 0 står på if, så stopper den etter det og printer det man har skrevet etter printout
+    </ol>
     <script type="module" src="./task_3-1.mjs" defer></script>
   </body>
 </html>
